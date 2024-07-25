@@ -23,8 +23,13 @@ header {
     margin: 1vh 8vw;
     justify-content: space-between;
     color: white;
-    font-size: 0.5cm;
+    font-size: 0.7cm;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav a{
+    text-decoration: none; 
+    color: white;
+    font-weight: bold;
 }
 
 .nav-bar {
@@ -230,6 +235,53 @@ header {
 .collection-info p {
     font-size: 1em;
     color: #000000;
+}
+.popular-localities {
+    margin: 5vh 8vw;
+}
+
+.popular-localities h2 {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    margin-bottom: 2vh;
+}
+
+.localities-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.locality-card {
+    flex: 1 1 calc(33.33% - 20px);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.locality-card:hover {
+    transform: scale(1.05);
+}
+
+.locality-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.locality-places {
+    font-size: 1em;
+    color: #666;
+}
+
+.see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* footer css*/
