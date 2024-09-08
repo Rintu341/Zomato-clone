@@ -53,6 +53,6 @@ handleFormDisplay();
 
  // JavaScript to handle cancel icon click
  document.querySelector('.cancel-icon').addEventListener('click', function() {
-    window.location.href = 'Zomato.html'; // Replace with the URL you want to redirect to
+    window.location.href = 'index.html'; // Replace with the URL you want to redirect to
 });
 
